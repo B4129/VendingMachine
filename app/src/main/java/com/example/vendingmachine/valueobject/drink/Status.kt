@@ -1,4 +1,4 @@
-package com.example.vendingmachine.drink
+package com.example.vendingmachine.valueobject.drink
 
 import java.lang.IllegalArgumentException
 
