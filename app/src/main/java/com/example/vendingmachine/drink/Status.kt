@@ -1,9 +1,12 @@
 package com.example.vendingmachine.drink
 
+import java.lang.IllegalArgumentException
+
 class Status(
     // TODO: 2019/04/17 Sakai_Yuji HOT/COOLを持たせたい
-    val temperature:String
+    private val temperature:String
 ) {
     init {
+        if(temperature != "HOT" && temperature != "COOL" )throw IllegalArgumentException("温度異常")
     }
 }
