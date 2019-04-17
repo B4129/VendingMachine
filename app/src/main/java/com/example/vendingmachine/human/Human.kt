@@ -17,4 +17,11 @@ class Human(
     fun buyWallet(wallet:Wallet){
         //TODO 財布をグレードアップする処理
     }
+
+    fun takeMoney(){
+        //TODO お釣りを取る処理
+    }
+    fun scavengeMoney(){
+        //TODO 自販機周辺でお金をあさる処理
+    }
 }
