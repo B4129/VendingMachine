@@ -24,4 +24,5 @@ class Human(
     fun scavengeMoney(){
         //TODO 自販機周辺でお金をあさる処理
     }
+
 }
