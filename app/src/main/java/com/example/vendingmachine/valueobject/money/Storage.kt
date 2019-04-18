@@ -1,7 +1,7 @@
 package com.example.vendingmachine.valueobject.money
 
 
-class Wallet(
+class Storage(
     override val coins: MutableList<Pair<Coin, Int>> = mutableListOf(
         Pair(Coin(10), 0),
         Pair(Coin(50), 0),
@@ -12,8 +12,5 @@ class Wallet(
         Pair(Bill(1000), 0),
         Pair(Bill(5000), 0),
         Pair(Bill(10000), 0)
-    ),
-    val grade: Int = 0
-) : IStorage {
-
-}
+    )
+) : IStorage
